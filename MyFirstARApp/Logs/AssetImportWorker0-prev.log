@@ -1,0 +1,161 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/taeeun/Documents/GitHub/UnityAR/MyFirstARApp
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56232
+Successfully changed project path to: /Users/taeeun/Documents/GitHub/UnityAR/MyFirstARApp
+/Users/taeeun/Documents/GitHub/UnityAR/MyFirstARApp
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/taeeun/Documents/GitHub/UnityAR/MyFirstARApp/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-02 23:59:58.130 Unity[89814:6739334] (null) preferred device: Apple M1 (high power)
+2021-04-02 23:59:58.130 Unity[89814:6739334] Metal devices available: 1
+2021-04-02 23:59:58.130 Unity[89814:6739334] 0: Apple M1 (high power)
+2021-04-02 23:59:58.130 Unity[89814:6739334] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56814
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.011155 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 26.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.207 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004167 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 25.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.969 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1905.
+Total: 1.457459 ms (FindLiveObjects: 0.124542 ms CreateObjectMapping: 0.030459 ms MarkObjects: 1.222209 ms  DeleteObjects: 0.079375 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819a33a9bd799f71faca6db75e8a216c') in 0.007900 seconds
+  Import took 0.010046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.806430 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(4df6aaf6632e945518d4622bb050eb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(4df6aaf6632e945518d4622bb050eb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c68b6185b1c93a5f97615503070159a') in 1.215348 seconds
+  Import took 1.221234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.820909 seconds.
+  path: Assets/XR
+  artifactKey: Guid(024674fc2f6ba4719a6b9483a53870a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(024674fc2f6ba4719a6b9483a53870a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35858822d13890ddb3dadc38fb8e803') in 0.001291 seconds
+  Import took 0.004512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074790 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(2eb342e7b4458497b8413359a9c402dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(2eb342e7b4458497b8413359a9c402dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfb338f9d6797e5c22a64cdd7df5213') in 0.023253 seconds
+  Import took 0.025596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 353.251838 seconds.
+  path: Assets/WhatsApp_Logo_6.png
+  artifactKey: Guid(41ba07d92a6de4991b6f3db78d596458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhatsApp_Logo_6.png using Guid(41ba07d92a6de4991b6f3db78d596458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c13382e9ae5950452a729883a57381') in 0.662575 seconds
+  Import took 0.698709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.500366 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e6a07bcc6fdd64974a67b394f7552e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e6a07bcc6fdd64974a67b394f7552e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaee5e35499e866cd24a6a42dfed19f') in 0.001068 seconds
+  Import took 0.004033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.331801 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(17b5eddf805fb4bb09e1b90e7a9be6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(17b5eddf805fb4bb09e1b90e7a9be6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb28bc7cf896a47277afb0f47f615ac') in 0.213212 seconds
+  Import took 0.215653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.951750 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(4df6aaf6632e945518d4622bb050eb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(4df6aaf6632e945518d4622bb050eb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12d1ec1adef7371ec114fcfba03fdef') in 0.057588 seconds
+  Import took 0.060027 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.083 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 2.128583 ms (FindLiveObjects: 0.178125 ms CreateObjectMapping: 0.030250 ms MarkObjects: 1.852375 ms  DeleteObjects: 0.066541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
